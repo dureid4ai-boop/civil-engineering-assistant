@@ -1,0 +1,25 @@
+# Normalize line endings in repo
+* text=auto
+
+# Force consistent LF for text docs (prevents Windows CRLF warning noise)
+*.md  text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+
+# Treat binaries as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.rar binary
+*.7z  binary
