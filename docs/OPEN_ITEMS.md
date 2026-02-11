@@ -1,12 +1,17 @@
 # OPEN_ITEMS — Civil Engineering Assistant (CEA)
 
-## Active
-1. Define MVP scope (what CEA will do in v0.1)
-2. Define target users + workflows (1–3 core workflows)
-3. Create Decision Log
-4. Create Security/Privacy runbook
-5. Add first templates (generic, non-client)
-6. Choose tech stack for /src (if any) and justify
+## Active (v0.1 backlog)
+1. Create v0.1 template set:
+   - kickoff pack checklist
+   - QA/self-review checklist
+   - 1–2 basic calculation note templates (transparent formulas)
+2. Create docs/APP_MANUAL.md (how to use templates and produce outputs)
+3. Create docs/runbooks/RELEASE_RUNBOOK.md (how we version + release)
+4. Create docs/security/PRIVACY_PRECOMMIT_CHECKLIST.md (1-page)
+5. Decide delivery format for v0.1 outputs (start with Markdown + optional DOCX later)
+6. Add sample outputs (synthetic only) in deliverables/ (non-private)
+7. Tag first release v0.0.1 (docs-only) after commit
 
 ## Closed
-(none yet)
+- Repo skeleton created
+- Initial governance created

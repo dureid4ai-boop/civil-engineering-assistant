@@ -43,7 +43,3 @@ CEA is a toolkit + app that helps civil engineers work faster and more consisten
 - decision log exists
 - no sensitive files committed
 - reproducible setup steps documented
-
-## 6) MVP scope
-- v0.1 scope is defined in: docs/SCOPE_V0_1.md
-- v0.1 principle: template-first, transparent, no client data
