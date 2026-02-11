@@ -1,0 +1,55 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Node / Python (future-proof)
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+secrets.*
+**/secrets/**
+
+# Civil engineering / client artifacts (DO NOT COMMIT)
+deliverables/_PRIVATE_DO_NOT_COMMIT/
+**/*client*
+**/*Client*
+**/*contract*
+**/*Contract*
+**/*invoice*
+**/*Invoice*
+**/*NDA*
+**/*.dwg
+**/*.dxf
+**/*.rvt
+**/*.ifc
+**/*.step
+**/*.stp
+**/*.igs
+**/*.iges
+**/*.pdf
+**/*.zip
+**/*.rar
+**/*.7z
+
+# Data dumps
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
