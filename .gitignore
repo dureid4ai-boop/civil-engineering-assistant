@@ -53,3 +53,7 @@ deliverables/_PRIVATE_DO_NOT_COMMIT/
 *.xls
 *.sqlite
 *.db
+
+# Backup snapshots (never commit)
+*.bak_*
+
